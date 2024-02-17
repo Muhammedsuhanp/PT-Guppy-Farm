@@ -31,57 +31,67 @@
 
 <body>
     
-    <!-- Topbar Start -->
-    <div class="container-fluid px-5 d-none d-lg-block">
-        <div class="row gx-5 py-3 align-items-center">
-            <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-start">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-                    <h2 class="mb-0">+918606683797</h2>
-                </div>
+   <!-- Topbar Start -->
+   <div class="container-fluid px-5 d-none d-lg-block" style="background-color: #ADD8E6;">
+    <div class="row gx-5 py-3 align-items-center">
+        <div class="col-lg-3">
+            <div class="d-flex align-items-center justify-content-start">
+                <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+                <h2 class="mb-0">+918606683797</h2>
             </div>
-            <div class="col-lg-6">
-                <div class="d-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand ms-lg-5">
-                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">PT Guppy</span>Farm</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-end">
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="col-lg-6">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="C:\Users\suhan\Desktop\projj\farm\farmfresh-1.0.0\farmfresh-1.0.0\img\logo2.png" alt="Logo" class="img-fluid me-2" style="max-width: 100px; max-height: 100px;">
+
+                <a href="index.html" class="navbar-brand ms-lg-2"> <!-- Adjusted margin here -->
                     
-                    <a class="btn btn-primary btn-square rounded-circle" href="https://www.instagram.com/mohd_suhan8?igsh=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
-                </div>
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">PT Guppy</span>Farm</h1>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="d-flex align-items-center justify-content-end">
+                <a class="btn btn-primary btn-square rounded-circle me-2" href="https://wa.me/qr/FW4LZ55V54NRO1"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="https://maps.app.goo.gl/LuSXsuUyQS7Ub9jZ7"><i class="bi bi-geo-alt-fill"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="https://www.facebook.com/salaam.kadannamanna?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                    
+                    <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
+
+
 
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <h1 class="m-0 display-4 text-secondary"><span class="text-white">PT Guppy</span>Farm</h1>
-        </a>
+        <div class="d-flex align-items-center"> <!-- Added a flex container -->
+            <!-- Image content displayed only on small screens -->
+            <img src="C:\Users\suhan\Desktop\projj\farm\farmfresh-1.0.0\farmfresh-1.0.0\img\logo2.png" alt="Logo" class="img-fluid me-2 d-lg-none" style="max-width: 80px; max-height: 80px;">
+            
+            <a href="index.html" class="navbar-brand d-flex d-lg-none">
+                <h1 class="m-0 display-4 text-secondary mb-0"><span class="text-white">PT Guppy</span>Farm</h1>
+            </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link active">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
                 <a href="product.html" class="nav-item nav-link">Product</a>
-                
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link ">Contact</a>
             </div>
         </div>
     </nav>
+    
+    
     <!-- Navbar End -->
-
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero mb-5">
@@ -102,11 +112,7 @@
      <div class="container-fluid about pt-5">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="d-flex h-100 border border-5 border-primary border-bottom-0 pt-4">
-                        <img class="img-fluid mt-auto mx-auto" src="C:\Users\suhan\Downloads\guppies-species-july082020-min.jpg">
-                    </div>
-                </div>
+                
                 <div class="col-lg-6 pb-5">
                     <div class="mb-3 pb-2">
                         <h6 class="text-primary text-uppercase">About Us</h6>
@@ -144,50 +150,48 @@
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
                             <h4 class="text-white mb-4">Get In Touch</h4>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-white me-2"></i>
-                                <p class="text-white mb-0">location</p>
+                            <!-- Location -->
+                            <div class="row mb-2">
+                                <div class="col-auto">
+                                    <i class="bi bi-geo-alt text-white me-2"></i>
+                                </div>
+                                <div class="col">
+                                    <p class="text-white mb-0">Kerala, Malappuram</p>
+                                </div>
                             </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-facebook text-white me-2"></i>
-                                <p class="text-white mb-0">fb id</p>
+                            <!-- Facebook ID -->
+                            <div class="row mb-2">
+                                <div class="col-auto">
+                                    <i class="bi bi-facebook text-white me-2"></i>
+                                </div>
+                                <div class="col">
+                                    <p class="text-white mb-0">Salaam Kadannamanna</p>
+                                </div>
                             </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-white me-2"></i>
-                                <p class="text-white mb-0">+918606683797</p>
+                            <!-- Telephone Number -->
+                            <div class="row mb-2">
+                                <div class="col-auto">
+                                    <i class="bi bi-telephone text-white me-2"></i>
+                                </div>
+                                <div class="col">
+                                    <p class="text-white mb-0">+918606683797</p>
+                                </div>
                             </div>
+                            <!-- Social Media Links -->
                             <div class="d-flex mt-4">
-                                
-                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-<a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-whatsapp"></i></a>
-<a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-instagram"></i></a>
-<a class="btn btn-secondary btn-square rounded-circle me-2" href="tel:+123456789"><i class="bi bi-telephone-fill"></i></a>
-
+                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="https://www.facebook.com/salaam.kadannamanna?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="https://wa.me/qr/FW4LZ55V54NRO1"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="https://maps.app.goo.gl/LuSXsuUyQS7Ub9jZ7"><i class="bi bi-geo-alt-fill"></i></a>
+                                <a class="btn btn-secondary btn-square rounded-circle me-2" href="tel:+918606683797"><i class="bi bi-telephone-fill"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-white mb-4">Quick Links</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-white py-4">
-        <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-secondary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>
-            <br>Distributed By: <a class="text-secondary fw-bold" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-        </div>
-    </div>
+    
+    
     <!-- Footer End -->
 
 
